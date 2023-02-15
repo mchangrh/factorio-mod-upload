@@ -1,0 +1,9 @@
+name: 'factorio-mod-upload'
+description: 'Upload factorio mod with api v2'
+inputs:
+  mod-name:
+    description: 'Name of mod'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
