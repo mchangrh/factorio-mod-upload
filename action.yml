@@ -1,5 +1,8 @@
 name: 'factorio-mod-upload'
 description: 'Upload factorio mod with api v2'
+branding:
+  icon: box
+  color: orange
 inputs:
   mod-name:
     description: 'Name of mod'
