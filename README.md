@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Upload to Mod Portal
-        uses: mchangrh/factorio-mod-upload@v1
+        uses: mchangrh/factorio-mod-upload@v2
         with:
           mod-name: 'mycoolmod'
         env:
